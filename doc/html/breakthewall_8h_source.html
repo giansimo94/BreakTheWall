@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Break The Wall:  File sorgente breakthewall.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Break The Wall
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="namespaces.html"><span>Namespace</span></a></li>
+      <li><a href="annotated.html"><span>Classi</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;dei&#160;file</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespace</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variabili</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">breakthewall.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="breakthewall_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef BREAKTHEWALL_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define BREAKTHEWALL_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QDialog&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QtGui&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QtCore&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;QGraphicsScene&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;QMessageBox&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="paddle_8h.html">paddle.h</a>&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="ball_8h.html">ball.h</a>&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="brick_8h.html">brick.h</a>&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="namespaceUi.html">   14</a></span>&#160;<span class="keyword">namespace </span>Ui {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span><a class="code" href="classBreakTheWall.html">BreakTheWall</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classBreakTheWall.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="classBreakTheWall.html">BreakTheWall</a> : <span class="keyword">public</span> QDialog</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classBreakTheWall.html#aa4814c10e789c3b4487366006caf4f62">BreakTheWall</a>(QWidget *parent = 0);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="classBreakTheWall.html#acd319cebd67c0207a9621d9b53e78ef1">~BreakTheWall</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBreakTheWall.html#aae968af732682e31824b44ed0bba5233">collision</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="classBreakTheWall.html#acf7fa7ad9471a6ae1e4566172c4aa479">createWall</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    Ui::BreakTheWall *ui;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    QGraphicsScene *scene;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classBall.html">Ball</a> *ball;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classPaddle.html">Paddle</a> *paddle;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classBrick.html">Brick</a> *brick[50];</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    qreal xBrick;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    qreal yBrick;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> timeId;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">int</span> Brickcount;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">bool</span> running;   </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBreakTheWall.html#adc5b2270bd034ee3d8f68aa6a7b1952f">keyPressEvent</a>(QKeyEvent *event);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBreakTheWall.html#a3cb71d9d72f8c8fd25c165d608133d60">timerEvent</a>(QTimerEvent *);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#endif // BREAKTHEWALL_H</span></div>
+<div class="ttc" id="classBreakTheWall_html_aae968af732682e31824b44ed0bba5233"><div class="ttname"><a href="classBreakTheWall.html#aae968af732682e31824b44ed0bba5233">BreakTheWall::collision</a></div><div class="ttdeci">void collision()</div><div class="ttdoc">Funzione invocata da timerEvent(QTimerEvent *). </div><div class="ttdef"><b>Definition:</b> breakthewall.cpp:83</div></div>
+<div class="ttc" id="classBall_html"><div class="ttname"><a href="classBall.html">Ball</a></div><div class="ttdoc">Oggetto di tipo QGraphicsItem. </div><div class="ttdef"><b>Definition:</b> ball.h:12</div></div>
+<div class="ttc" id="classBrick_html"><div class="ttname"><a href="classBrick.html">Brick</a></div><div class="ttdoc">Oggetto di tipo QGraphicsItem. </div><div class="ttdef"><b>Definition:</b> brick.h:13</div></div>
+<div class="ttc" id="classBreakTheWall_html_acf7fa7ad9471a6ae1e4566172c4aa479"><div class="ttname"><a href="classBreakTheWall.html#acf7fa7ad9471a6ae1e4566172c4aa479">BreakTheWall::createWall</a></div><div class="ttdeci">void createWall()</div><div class="ttdoc">Funzione che crea il muro di mattoni. </div><div class="ttdef"><b>Definition:</b> breakthewall.cpp:144</div></div>
+<div class="ttc" id="classBreakTheWall_html_adc5b2270bd034ee3d8f68aa6a7b1952f"><div class="ttname"><a href="classBreakTheWall.html#adc5b2270bd034ee3d8f68aa6a7b1952f">BreakTheWall::keyPressEvent</a></div><div class="ttdeci">void keyPressEvent(QKeyEvent *event)</div><div class="ttdoc">Funzione che gesisce gli eventi provocati dalla pressione di un tasto. </div><div class="ttdef"><b>Definition:</b> breakthewall.cpp:171</div></div>
+<div class="ttc" id="classBreakTheWall_html_aa4814c10e789c3b4487366006caf4f62"><div class="ttname"><a href="classBreakTheWall.html#aa4814c10e789c3b4487366006caf4f62">BreakTheWall::BreakTheWall</a></div><div class="ttdeci">BreakTheWall(QWidget *parent=0)</div><div class="ttdoc">Funzione che inizializza le variabili e crea la scena aggiungendo tutte le componenti/oggetti. </div><div class="ttdef"><b>Definition:</b> breakthewall.cpp:26</div></div>
+<div class="ttc" id="classBreakTheWall_html_a3cb71d9d72f8c8fd25c165d608133d60"><div class="ttname"><a href="classBreakTheWall.html#a3cb71d9d72f8c8fd25c165d608133d60">BreakTheWall::timerEvent</a></div><div class="ttdeci">void timerEvent(QTimerEvent *)</div><div class="ttdoc">Funzione che periodicamente richiama Ball.move() e collision(), permettendo il movimento della pallin...</div><div class="ttdef"><b>Definition:</b> breakthewall.cpp:217</div></div>
+<div class="ttc" id="paddle_8h_html"><div class="ttname"><a href="paddle_8h.html">paddle.h</a></div></div>
+<div class="ttc" id="ball_8h_html"><div class="ttname"><a href="ball_8h.html">ball.h</a></div></div>
+<div class="ttc" id="classPaddle_html"><div class="ttname"><a href="classPaddle.html">Paddle</a></div><div class="ttdoc">Oggetto di tipo QGraphicsItem. </div><div class="ttdef"><b>Definition:</b> paddle.h:14</div></div>
+<div class="ttc" id="brick_8h_html"><div class="ttname"><a href="brick_8h.html">brick.h</a></div></div>
+<div class="ttc" id="classBreakTheWall_html"><div class="ttname"><a href="classBreakTheWall.html">BreakTheWall</a></div><div class="ttdoc">Classe principale utilizzata per la gestione del gioco. </div><div class="ttdef"><b>Definition:</b> breakthewall.h:23</div></div>
+<div class="ttc" id="classBreakTheWall_html_acd319cebd67c0207a9621d9b53e78ef1"><div class="ttname"><a href="classBreakTheWall.html#acd319cebd67c0207a9621d9b53e78ef1">BreakTheWall::~BreakTheWall</a></div><div class="ttdeci">~BreakTheWall()</div><div class="ttdef"><b>Definition:</b> breakthewall.cpp:73</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Lun 1 Set 2014 19:33:56 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>
