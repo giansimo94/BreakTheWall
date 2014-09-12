@@ -14,7 +14,7 @@
  * @author Gianpaolo Simone
  */
 
-#include "breakthewall.h"
+#include "src/breakthewall.h"
 #include "ui_breakthewall.h"
 #include <QDebug>
 

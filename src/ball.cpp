@@ -1,4 +1,4 @@
-#include "ball.h"
+#include "src/ball.h"
 #include <QMessageBox>
 
 /**

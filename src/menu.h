@@ -3,8 +3,8 @@
 
 #include <QMainWindow>
 #include <QDialog>
-#include <istructions.h>
-#include <breakthewall.h>
+#include <src/istructions.h>
+#include <src/breakthewall.h>
 
 
 namespace Ui {

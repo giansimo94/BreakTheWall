@@ -1,4 +1,4 @@
-#include "paddle.h"
+#include "src/paddle.h"
 
 /**
  * Funzione che definisce alcune caratteristiche dell'oggetto Paddle.

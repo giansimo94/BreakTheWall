@@ -12,21 +12,21 @@ TARGET = BreakTheWall
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        menu.cpp \
-    breakthewall.cpp \
-    ball.cpp \
-    brick.cpp \
-    paddle.cpp \
-    istructions.cpp
+SOURCES += src/ball.cpp \
+    src/breakthewall.cpp \
+    src/brick.cpp \
+    src/istructions.cpp \
+    src/main.cpp \
+    src/menu.cpp \
+    src/paddle.cpp
 
-HEADERS  += menu.h \
-    breakthewall.h \
-    ball.h \
-    brick.h \
-    paddle.h \
-    istructions.h
+HEADERS  += src/ball.h \
+    src/breakthewall.h \
+    src/brick.h \
+    src/istructions.h \
+    src/menu.h \
+    src/paddle.h
 
-FORMS    += menu.ui \
-    breakthewall.ui \
-    istructions.ui
+FORMS    += src/menu.ui \
+    src/breakthewall.ui \
+    src/istructions.ui

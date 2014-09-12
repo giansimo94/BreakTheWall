@@ -7,9 +7,9 @@
 #include <QtCore>
 #include <QGraphicsScene>
 #include <QMessageBox>
-#include <paddle.h>
-#include <ball.h>
-#include <brick.h>
+#include <src/paddle.h>
+#include <src/ball.h>
+#include <src/brick.h>
 
 
 namespace Ui {

@@ -1,4 +1,4 @@
-#include "istructions.h"
+#include "src/istructions.h"
 #include "ui_istructions.h"
 
 

@@ -1,4 +1,4 @@
-#include "brick.h"
+#include "src/brick.h"
 
 /**
  * Funzione che definisce alcune caratteristiche dell'oggetto Brick.
