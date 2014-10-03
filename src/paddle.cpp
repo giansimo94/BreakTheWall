@@ -6,7 +6,6 @@
 Paddle::Paddle()
 {
     setFlag(ItemIsFocusable);
-
 }
 
 /**
@@ -31,9 +30,6 @@ void Paddle::paint(QPainter *painter, const QStyleOptionGraphicsItem *, QWidget 
 {
 
     QRectF rect = boundingRect();
-
-    QBrush brush(Qt::blue);
-    QPen pen(Qt::blue);
 
     QLinearGradient grad(0,50,45,10);
     grad.setColorAt(0.0,Qt::green);

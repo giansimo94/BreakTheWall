@@ -17,7 +17,6 @@ Brick::Brick()
 void Brick::paint(QPainter *painter, const QStyleOptionGraphicsItem *, QWidget *)
 {
     rect = boundingRect();
-
     // no need 2 paint
     if (!destroyed){
         QBrush brush(Qt::blue);

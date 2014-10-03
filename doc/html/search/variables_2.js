@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ypos',['ypos',['../classBrick.html#a24b03ad8024c6c354126608dacc0e408',1,'Brick']]]
+  ['destroyed',['destroyed',['../classBrick.html#ae23a834a74abc557bcafbed1bff9bc8b',1,'Brick']]],
+  ['down',['down',['../classBonusItem.html#af1d50e0eae26feb051015be9e96ebd01',1,'BonusItem']]]
 ];

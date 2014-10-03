@@ -64,7 +64,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespace</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variabili</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespace</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Tipi enumerati (enum)</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valori del tipo enumerato</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Definizioni</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -78,17 +78,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
 <div class="title">Break The Wall Documentazione</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Libreria grafica utilizzata : QT.<br/>
+<div class="textblock"><p>Libreria grafica utilizzata : QT<br/>
+IDE utilizzato: QT Creator<br/>
  La struttura del codice si basa sui tre oggetti principali del gioco, implementati nelle rispettive classi:</p>
-<p><a class="el" href="classBall.html" title="Oggetto di tipo QGraphicsItem. ">Ball</a><br/>
-<a class="el" href="classPaddle.html" title="Oggetto di tipo QGraphicsItem. ">Paddle</a><br/>
-<a class="el" href="classBrick.html" title="Oggetto di tipo QGraphicsItem. ">Brick</a></p>
-<p>La Gestione del gioco avviene all'interno di <a class="el" href="classBreakTheWall.html" title="Classe principale utilizzata per la gestione del gioco. ">BreakTheWall</a></p>
+<p><a class="el" href="classBall.html" title="Classe utilizzata per la creazione dell&#39;oggetto ball. ">Ball</a><br/>
+<a class="el" href="classPaddle.html" title="Classe utilizzata per la creazione del paddle. ">Paddle</a><br/>
+<a class="el" href="classBrick.html" title="Classe utilizzata per la creazione dei Bricks che costituiscono il muro. ">Brick</a><br/>
+ <br/>
+Le classi <a class="el" href="structSave__Load.html" title="Struttura dati per salvataggio/caricamento dei dati. ">Save_Load</a> e <a class="el" href="classTopScores.html" title="Finestra che visualizza i 10 top scores. ">TopScores</a> permettono la gestione,la visualizzazione e il caricamento/salvataggio dei punteggi<br/>
+ La Gestione del gioco avviene all'interno di <a class="el" href="classBreakTheWall.html" title="Classe principale utilizzata per la gestione del gioco. ">BreakTheWall</a></p>
 <dl class="section author"><dt>Autore</dt><dd>Gianpaolo Simone </dd></dl>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generato Lun 1 Set 2014 19:33:56 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
+Generato Ven 3 Ott 2014 12:25:06 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

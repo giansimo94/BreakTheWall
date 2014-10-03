@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['_7ebreakthewall',['~BreakTheWall',['../classBreakTheWall.html#acd319cebd67c0207a9621d9b53e78ef1',1,'BreakTheWall']]],
-  ['_7eistructions',['~Istructions',['../classIstructions.html#a733d692b67bf051832906599ada153cc',1,'Istructions']]],
-  ['_7emenu',['~Menu',['../classMenu.html#a831387f51358cfb88cd018e1777bc980',1,'Menu']]]
+  ['paddle',['Paddle',['../classPaddle.html#a53895671ddfde9ba668546065ec4f164',1,'Paddle']]],
+  ['paint',['paint',['../classBall.html#ac61500d8ef7bbb595175da04c323949c',1,'Ball::paint()'],['../classBonusItem.html#a18caef109411d883fcfa4c1f8de5a600',1,'BonusItem::paint()'],['../classBrick.html#a4caf1a79fce7a93411b887304dcdbd64',1,'Brick::paint()'],['../classMissile.html#a299a2280d118b881c54aaeeaf2cb54ef',1,'Missile::paint()'],['../classPaddle.html#a7b53c543e3fa8d4118a19a0b0ba3f07f',1,'Paddle::paint()']]]
 ];

@@ -62,7 +62,7 @@
      <string>Start Game</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="TopScores">
     <property name="geometry">
      <rect>
       <x>175</x>
@@ -72,7 +72,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>About</string>
+     <string>Top Scores</string>
     </property>
    </widget>
   </widget>

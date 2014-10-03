@@ -1,4 +1,5 @@
 #include "src/menu.h"
+#include <src/topscores.h>
 #include "ui_menu.h"
 
 
@@ -16,23 +17,17 @@ Menu::~Menu()
 }
 
 /**
- * Funzione senza parametri in ingresso, invocata alla pressione
- * del rispettivo tasto.
- *
  * Visualizzazione della schermata del gioco
  */
 void Menu::on_StartGame_clicked()
 {
-    menu = new Menu;
-    BreakTheWall *newBTW = new BreakTheWall;
-    newBTW->setMaximumSize(1000,1000);
-    newBTW->exec();
+        BreakTheWall *newBTW = new BreakTheWall;
+        newBTW->setMaximumSize(1000,1000);
+        newBTW->exec();
+
 }
 
 /**
- * Funzione senza parametri in ingresso, invocata alla pressione
- * del rispettivo tasto.
- *
  * Esce dal gioco
  */
 
@@ -42,25 +37,22 @@ void Menu::on_Exit_clicked()
 }
 
 /**
- * Funzione senza parametri in ingresso, invocata alla pressione
- * del rispettivo tasto.
- *
- * Visualizza istruzioni e comandi del gioco
-
+ * Visualizzazione istruzioni e comandi del gioco
  */
 
 void Menu::on_HowToPlay_clicked()
 {
-    istrDial = new Istructions;
+    istrDial = new Instructions;
     istrDial->exec();
 
 }
 
 /**
- * Info sul gioco e sul creatore.
+ * Funzione che permette di visualizzare i 10 TopScores
  */
 
-void Menu::on_pushButton_clicked()
+void Menu::on_TopScores_clicked()
 {
-    QMessageBox::information(this,"About","BREAK THE WALL: \nA game created by GIANPAOLO SIMONE using QT-libraries");
+    Topscores = new TopScores;
+    Topscores->exec();
 }

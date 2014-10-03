@@ -14,11 +14,17 @@ Ball::Ball()
          */
 
         setYDir(3);
-        if (qrand() % 2)
-            setXDir(qrand() % 6);
-        else
-            setXDir(-(qrand() % 6));
+
+        do
+        {
+            if (qrand() % 2)
+                setXDir(qrand() % 3);
+            else
+                setXDir(-(qrand() % 3));
+
+        }   while (getXdir()==0);
 }
+
 
 /**
  *
@@ -39,9 +45,12 @@ QRectF Ball::boundingRect() const
 void Ball::paint(QPainter *painter, const QStyleOptionGraphicsItem *, QWidget *)
 {
     rect = boundingRect();
+
+    // Definisco il gradiente e disegno la pallina
     QLinearGradient grad(15,15,10,10);
     grad.setColorAt(0.0,Qt::black);
     grad.setColorAt(1.0,Qt::gray);
+
     painter->setBrush(grad);
     painter->drawEllipse(rect);
 }
@@ -52,6 +61,7 @@ void Ball::paint(QPainter *painter, const QStyleOptionGraphicsItem *, QWidget *)
 
 void Ball::move()
 {
+    //Sposto la pallina secondo le coordinate di movimento
     moveBy(getXdir(), -getYdir());
 
     // Controlla collisione con lato sinistro del rettangolo
@@ -75,8 +85,7 @@ void Ball::move()
  *
  * Setta la variabile xmove al valore della variabile in ingresso
  *
- * @param[in] x coordinata di movimento della pallina
- *              rispetto all'ascissa.
+ * @param[in] x
  */
 void Ball::setXDir(qreal x)
 {
@@ -88,8 +97,7 @@ void Ball::setXDir(qreal x)
  *
  * Setta la variabile ymove al valore della variabile in ingresso
  *
- * @param[in] y coordinata di movimento della pallina
- *              rispetto all'ordinata.
+ * @param[in] y
  */
 
 void Ball::setYDir(qreal y)

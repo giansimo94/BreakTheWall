@@ -6,9 +6,9 @@
 #include <QGraphicsItem>
 
 /**
- * Oggetto di tipo QGraphicsItem.
+ * @brief
+ * Classe utilizzata per la creazione dei Bricks che costituiscono il muro
  */
-
 
 class Brick :  public QGraphicsItem
 {
@@ -19,11 +19,13 @@ public:
     bool destroyed;  /**< Se settata a true, il brick non viene ridisegnato */
 
 private:
+    QRectF rect;
+
+    //Funzioni
     void paint(QPainter *painter,
                const QStyleOptionGraphicsItem *option,
                QWidget *widget);
     QRectF boundingRect() const;
-    QRectF rect;
 
 };
 

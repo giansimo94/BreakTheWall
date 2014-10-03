@@ -15,18 +15,27 @@ TEMPLATE = app
 SOURCES += src/ball.cpp \
     src/breakthewall.cpp \
     src/brick.cpp \
-    src/istructions.cpp \
     src/main.cpp \
     src/menu.cpp \
-    src/paddle.cpp
+    src/paddle.cpp \
+    src/topscores.cpp \
+    src/save_load.cpp \
+    src/bonusitem.cpp \
+    src/instructions.cpp \
+    src/missile.cpp
 
 HEADERS  += src/ball.h \
     src/breakthewall.h \
     src/brick.h \
-    src/istructions.h \
     src/menu.h \
-    src/paddle.h
+    src/paddle.h \
+    src/topscores.h \
+    src/save_load.h \
+    src/bonusitem.h \
+    src/instructions.h \
+    src/missile.h
 
 FORMS    += src/menu.ui \
     src/breakthewall.ui \
-    src/istructions.ui
+    src/topscores.ui \
+    src/instructions.ui

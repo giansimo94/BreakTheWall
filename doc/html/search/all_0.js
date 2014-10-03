@@ -1,12 +1,20 @@
 var searchData=
 [
-  ['ball',['Ball',['../classBall.html',1,'Ball'],['../classBall.html#a86a144d3dad6c953e422e32435923bbb',1,'Ball::Ball()']]],
+  ['ball',['Ball',['../classBall.html',1,'Ball'],['../classBreakTheWall.html#ae259f9bfda0d0e52a921ffa9edc5fbbf',1,'BreakTheWall::ball()'],['../classBall.html#a86a144d3dad6c953e422e32435923bbb',1,'Ball::Ball()']]],
   ['ball_2ecpp',['ball.cpp',['../ball_8cpp.html',1,'']]],
   ['ball_2eh',['ball.h',['../ball_8h.html',1,'']]],
+  ['blu',['blu',['../classBonusItem.html#a60b96487378363c77268412845b7dddca6527a48e96016be93df51c4a292e95d8',1,'BonusItem']]],
+  ['bonus',['bonus',['../classBreakTheWall.html#ab97c97a8deb6f306b9c9837e9cf4c4af',1,'BreakTheWall']]],
+  ['bonuscount',['Bonuscount',['../classBreakTheWall.html#a69005c5998540350158524e9611e37d2',1,'BreakTheWall']]],
+  ['bonusitem',['BonusItem',['../classBonusItem.html',1,'BonusItem'],['../classBonusItem.html#a6314e51f679197e7f9fceecae1314b88',1,'BonusItem::BonusItem()']]],
+  ['bonusitem_2ecpp',['bonusitem.cpp',['../bonusitem_8cpp.html',1,'']]],
+  ['bonusitem_2eh',['bonusitem.h',['../bonusitem_8h.html',1,'']]],
+  ['boundingrect',['boundingRect',['../classBall.html#ae68484e656a6c7a195e41185c06e9e8f',1,'Ball::boundingRect()'],['../classBonusItem.html#a070d3499e4f46ed26995fd8484fc5577',1,'BonusItem::boundingRect()'],['../classBrick.html#a3eba50f745263db6060fe62bc04fc6fe',1,'Brick::boundingRect()'],['../classMissile.html#a998034ec551089fb09eba7b356d7c194',1,'Missile::boundingRect()'],['../classPaddle.html#a1149ac192037b3ee6921f748c913a14d',1,'Paddle::boundingRect()']]],
   ['breakthewall',['BreakTheWall',['../classBreakTheWall.html',1,'BreakTheWall'],['../classBreakTheWall.html#aa4814c10e789c3b4487366006caf4f62',1,'BreakTheWall::BreakTheWall()']]],
   ['breakthewall_2ecpp',['breakthewall.cpp',['../breakthewall_8cpp.html',1,'']]],
   ['breakthewall_2eh',['breakthewall.h',['../breakthewall_8h.html',1,'']]],
-  ['brick',['Brick',['../classBrick.html',1,'Brick'],['../classBrick.html#aa29d678c3d901c7b18cbc3a27a51be17',1,'Brick::Brick()']]],
+  ['brick',['Brick',['../classBrick.html',1,'Brick'],['../classBreakTheWall.html#a1f1190838bcfd87c03eb87bb7e9bc7d0',1,'BreakTheWall::brick()'],['../classBrick.html#aa29d678c3d901c7b18cbc3a27a51be17',1,'Brick::Brick()']]],
   ['brick_2ecpp',['brick.cpp',['../brick_8cpp.html',1,'']]],
-  ['brick_2eh',['brick.h',['../brick_8h.html',1,'']]]
+  ['brick_2eh',['brick.h',['../brick_8h.html',1,'']]],
+  ['brickcount',['Brickcount',['../classBreakTheWall.html#af5ff34148afba6aaae831e36054844ec',1,'BreakTheWall']]]
 ];

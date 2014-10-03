@@ -3,8 +3,9 @@
 
 #include <QMainWindow>
 #include <QDialog>
-#include <src/istructions.h>
+#include <src/instructions.h>
 #include <src/breakthewall.h>
+#include <src/topscores.h>
 
 
 namespace Ui {
@@ -12,13 +13,13 @@ class Menu;
 }
 
 /**
- * Oggetto di tipo QDialog.
- * Permette la visualizzazione del menu
+ * @brief
+ * Visualizzazione del menu
  *
  * Opzioni:
  * - Start game: Inzia una nuova partita
  * - How to play: Istruzioni e comandi del gioco
- * - About: Informazioni su autore e implementazione del codice
+ * - Top Scores: Visualizzazione dei migliori 10 punteggi
  * - Exit: Uscita
  */
 
@@ -38,12 +39,13 @@ private slots:
 
     void on_HowToPlay_clicked();
 
-    void on_pushButton_clicked();
+    void on_TopScores_clicked();
 
 private:
     Ui::Menu *ui;
     Menu *menu;
-    Istructions *istrDial;
+    Instructions *istrDial;
+    TopScores *Topscores;
 };
 
 #endif // MENU_H

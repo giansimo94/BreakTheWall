@@ -7,21 +7,26 @@
 #include <QGraphicsItem>
 
 /**
- * Oggetto di tipo QGraphicsItem.
+ * @brief
+ * Classe utilizzata per la creazione del paddle
  */
-
 
 class Paddle : public QGraphicsItem
 {
 public:
     Paddle();
 
+
 private:
+    QRectF rect;
+
+    //Funzioni
     void paint(QPainter *painter,
                const QStyleOptionGraphicsItem *option,
                QWidget *widget);
-    QRectF rect;
     QRectF boundingRect() const;
+
+
 
 
 };

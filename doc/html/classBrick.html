@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespace</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variabili</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespace</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Tipi enumerati (enum)</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valori del tipo enumerato</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Definizioni</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -85,13 +85,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
   <div class="summary">
 <a href="#pub-methods">Membri pubblici</a> &#124;
 <a href="#pub-attribs">Attributi pubblici</a> &#124;
+<a href="#pri-methods">Membri privati</a> &#124;
+<a href="#pri-attribs">Attributi privati</a> &#124;
 <a href="classBrick-members.html">Elenco di tutti i membri</a>  </div>
   <div class="headertitle">
 <div class="title">Riferimenti per la classe Brick</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Oggetto di tipo QGraphicsItem.  
+<p>Classe utilizzata per la creazione dei Bricks che costituiscono il muro.  
  <a href="classBrick.html#details">Continua...</a></p>
 
 <p><code>#include &lt;<a class="el" href="brick_8h_source.html">brick.h</a>&gt;</code></p>
@@ -107,23 +109,31 @@ Diagramma delle classi per Brick</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Membri pubblici</h2></td></tr>
 <tr class="memitem:aa29d678c3d901c7b18cbc3a27a51be17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBrick.html#aa29d678c3d901c7b18cbc3a27a51be17">Brick</a> ()</td></tr>
-<tr class="memdesc:aa29d678c3d901c7b18cbc3a27a51be17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che definisce alcune caratteristiche dell'oggetto <a class="el" href="classBrick.html" title="Oggetto di tipo QGraphicsItem. ">Brick</a>.  <a href="#aa29d678c3d901c7b18cbc3a27a51be17">Continua...</a><br/></td></tr>
 <tr class="separator:aa29d678c3d901c7b18cbc3a27a51be17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Attributi pubblici</h2></td></tr>
 <tr class="memitem:a8877ab7b1cf35ab3f53b286f40ab3775"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBrick.html#a8877ab7b1cf35ab3f53b286f40ab3775">xpos</a></td></tr>
-<tr class="memdesc:a8877ab7b1cf35ab3f53b286f40ab3775"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ascissa dello spigolo superiore sinistro di un generico mattone.  <a href="#a8877ab7b1cf35ab3f53b286f40ab3775">Continua...</a><br/></td></tr>
 <tr class="separator:a8877ab7b1cf35ab3f53b286f40ab3775"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24b03ad8024c6c354126608dacc0e408"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBrick.html#a24b03ad8024c6c354126608dacc0e408">ypos</a></td></tr>
-<tr class="memdesc:a24b03ad8024c6c354126608dacc0e408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ordinata dello spigolo superiore sinistro di un generico mattone.  <a href="#a24b03ad8024c6c354126608dacc0e408">Continua...</a><br/></td></tr>
 <tr class="separator:a24b03ad8024c6c354126608dacc0e408"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae23a834a74abc557bcafbed1bff9bc8b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBrick.html#ae23a834a74abc557bcafbed1bff9bc8b">destroyed</a></td></tr>
-<tr class="memdesc:ae23a834a74abc557bcafbed1bff9bc8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se settata a true, il brick non viene ridisegnato.  <a href="#ae23a834a74abc557bcafbed1bff9bc8b">Continua...</a><br/></td></tr>
 <tr class="separator:ae23a834a74abc557bcafbed1bff9bc8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Membri privati</h2></td></tr>
+<tr class="memitem:a4caf1a79fce7a93411b887304dcdbd64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBrick.html#a4caf1a79fce7a93411b887304dcdbd64">paint</a> (QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)</td></tr>
+<tr class="separator:a4caf1a79fce7a93411b887304dcdbd64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eba50f745263db6060fe62bc04fc6fe"><td class="memItemLeft" align="right" valign="top">QRectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBrick.html#a3eba50f745263db6060fe62bc04fc6fe">boundingRect</a> () const </td></tr>
+<tr class="separator:a3eba50f745263db6060fe62bc04fc6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Attributi privati</h2></td></tr>
+<tr class="memitem:abfdde90ea6449907c6c0a8ccb3214587"><td class="memItemLeft" align="right" valign="top">QRectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBrick.html#abfdde90ea6449907c6c0a8ccb3214587">rect</a></td></tr>
+<tr class="separator:abfdde90ea6449907c6c0a8ccb3214587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descrizione dettagliata</h2>
-<div class="textblock"><p>Oggetto di tipo QGraphicsItem. </p>
+<div class="textblock"><p>Classe utilizzata per la creazione dei Bricks che costituiscono il muro. </p>
 </div><h2 class="groupheader">Documentazione dei costruttori e dei distruttori</h2>
 <a class="anchor" id="aa29d678c3d901c7b18cbc3a27a51be17"></a>
 <div class="memitem">
@@ -137,13 +147,95 @@ Attributi pubblici</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Funzione che definisce alcune caratteristiche dell'oggetto <a class="el" href="classBrick.html" title="Oggetto di tipo QGraphicsItem. ">Brick</a>. </p>
+<p>Funzione che definisce alcune caratteristiche dell'oggetto <a class="el" href="classBrick.html" title="Classe utilizzata per la creazione dei Bricks che costituiscono il muro. ">Brick</a>. </p>
 <div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;   <span class="comment">// Setto la variabile destroyed di ogni brick a false</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;   <a class="code" href="classBrick.html#ae23a834a74abc557bcafbed1bff9bc8b">destroyed</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="classBrick_html_ae23a834a74abc557bcafbed1bff9bc8b"><div class="ttname"><a href="classBrick.html#ae23a834a74abc557bcafbed1bff9bc8b">Brick::destroyed</a></div><div class="ttdeci">bool destroyed</div><div class="ttdoc">Se settata a true, il brick non viene ridisegnato. </div><div class="ttdef"><b>Definition:</b> brick.h:19</div></div>
+<div class="ttc" id="classBrick_html_ae23a834a74abc557bcafbed1bff9bc8b"><div class="ttname"><a href="classBrick.html#ae23a834a74abc557bcafbed1bff9bc8b">Brick::destroyed</a></div><div class="ttdeci">bool destroyed</div><div class="ttdef"><b>Definition:</b> brick.h:19</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentazione delle funzioni membro</h2>
+<a class="anchor" id="a3eba50f745263db6060fe62bc04fc6fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRectF Brick::boundingRect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This pure virtual function defines the outer bounds of the item as a rectangle; all painting must be restricted to inside an item's bounding rect. QGraphicsView uses this to determine whether the item requires redrawing. </p>
+<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> QRectF(<a class="code" href="classBrick.html#a8877ab7b1cf35ab3f53b286f40ab3775">xpos</a>,<a class="code" href="classBrick.html#a24b03ad8024c6c354126608dacc0e408">ypos</a>,30,10);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="ttc" id="classBrick_html_a8877ab7b1cf35ab3f53b286f40ab3775"><div class="ttname"><a href="classBrick.html#a8877ab7b1cf35ab3f53b286f40ab3775">Brick::xpos</a></div><div class="ttdeci">qreal xpos</div><div class="ttdef"><b>Definition:</b> brick.h:17</div></div>
+<div class="ttc" id="classBrick_html_a24b03ad8024c6c354126608dacc0e408"><div class="ttname"><a href="classBrick.html#a24b03ad8024c6c354126608dacc0e408">Brick::ypos</a></div><div class="ttdeci">qreal ypos</div><div class="ttdef"><b>Definition:</b> brick.h:18</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4caf1a79fce7a93411b887304dcdbd64"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Brick::paint </td>
+          <td>(</td>
+          <td class="paramtype">QPainter *&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QStyleOptionGraphicsItem *&#160;</td>
+          <td class="paramname"><em>option</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>widget</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This function, which is usually called by QGraphicsView, paints the contents of an item in local coordinates. </p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="classBrick.html#abfdde90ea6449907c6c0a8ccb3214587">rect</a> = <a class="code" href="classBrick.html#a3eba50f745263db6060fe62bc04fc6fe">boundingRect</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="comment">// no need 2 paint</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="classBrick.html#ae23a834a74abc557bcafbed1bff9bc8b">destroyed</a>){</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        QBrush brush(Qt::blue);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        painter-&gt;setBrush(brush);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        painter-&gt;drawRect(<a class="code" href="classBrick.html#abfdde90ea6449907c6c0a8ccb3214587">rect</a>);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="ttc" id="classBrick_html_abfdde90ea6449907c6c0a8ccb3214587"><div class="ttname"><a href="classBrick.html#abfdde90ea6449907c6c0a8ccb3214587">Brick::rect</a></div><div class="ttdeci">QRectF rect</div><div class="ttdef"><b>Definition:</b> brick.h:22</div></div>
+<div class="ttc" id="classBrick_html_a3eba50f745263db6060fe62bc04fc6fe"><div class="ttname"><a href="classBrick.html#a3eba50f745263db6060fe62bc04fc6fe">Brick::boundingRect</a></div><div class="ttdeci">QRectF boundingRect() const </div><div class="ttdef"><b>Definition:</b> brick.cpp:37</div></div>
+<div class="ttc" id="classBrick_html_ae23a834a74abc557bcafbed1bff9bc8b"><div class="ttname"><a href="classBrick.html#ae23a834a74abc557bcafbed1bff9bc8b">Brick::destroyed</a></div><div class="ttdeci">bool destroyed</div><div class="ttdef"><b>Definition:</b> brick.h:19</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -157,8 +249,27 @@ Attributi pubblici</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Se settata a true, il brick non viene ridisegnato </p>
 
-<p>Se settata a true, il brick non viene ridisegnato. </p>
+</div>
+</div>
+<a class="anchor" id="abfdde90ea6449907c6c0a8ccb3214587"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRectF Brick::rect</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -171,8 +282,7 @@ Attributi pubblici</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Ascissa dello spigolo superiore sinistro di un generico mattone. </p>
+<p>Ascissa dello spigolo superiore sinistro di un generico mattone </p>
 
 </div>
 </div>
@@ -185,19 +295,18 @@ Attributi pubblici</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Ordinata dello spigolo superiore sinistro di un generico mattone. </p>
+<p>Ordinata dello spigolo superiore sinistro di un generico mattone </p>
 
 </div>
 </div>
 <hr/>La documentazione per questa classe è stata generata a partire dai seguenti file:<ul>
-<li><a class="el" href="brick_8h_source.html">brick.h</a></li>
-<li><a class="el" href="brick_8cpp.html">brick.cpp</a></li>
+<li>src/<a class="el" href="brick_8h_source.html">brick.h</a></li>
+<li>src/<a class="el" href="brick_8cpp.html">brick.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generato Lun 1 Set 2014 19:33:56 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
+Generato Ven 3 Ott 2014 12:25:06 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

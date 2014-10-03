@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Break The Wall:  File sorgente brick.h</title>
+<title>Break The Wall:  File sorgente src/brick.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,13 +64,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
       <li><a href="globals.html"><span>Elementi&#160;dei&#160;file</span></a></li>
     </ul>
   </div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespace</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variabili</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespace</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Tipi enumerati (enum)</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valori del tipo enumerato</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Definizioni</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -79,6 +78,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">brick.h</div>  </div>
@@ -99,24 +103,29 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classBrick.html#a24b03ad8024c6c354126608dacc0e408">   18</a></span>&#160;    qreal <a class="code" href="classBrick.html#a24b03ad8024c6c354126608dacc0e408">ypos</a>; </div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classBrick.html#ae23a834a74abc557bcafbed1bff9bc8b">   19</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classBrick.html#ae23a834a74abc557bcafbed1bff9bc8b">destroyed</a>;  </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> paint(QPainter *painter,</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;               <span class="keyword">const</span> QStyleOptionGraphicsItem *option,</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;               QWidget *widget);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    QRectF boundingRect() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    QRectF rect;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;};</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classBrick.html#abfdde90ea6449907c6c0a8ccb3214587">   22</a></span>&#160;    QRectF <a class="code" href="classBrick.html#abfdde90ea6449907c6c0a8ccb3214587">rect</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="comment">//Funzioni</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBrick.html#a4caf1a79fce7a93411b887304dcdbd64">paint</a>(QPainter *painter,</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;               <span class="keyword">const</span> QStyleOptionGraphicsItem *option,</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;               QWidget *widget);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    QRectF <a class="code" href="classBrick.html#a3eba50f745263db6060fe62bc04fc6fe">boundingRect</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif // BRICK_H</span></div>
-<div class="ttc" id="classBrick_html_a8877ab7b1cf35ab3f53b286f40ab3775"><div class="ttname"><a href="classBrick.html#a8877ab7b1cf35ab3f53b286f40ab3775">Brick::xpos</a></div><div class="ttdeci">qreal xpos</div><div class="ttdoc">Ascissa dello spigolo superiore sinistro di un generico mattone. </div><div class="ttdef"><b>Definition:</b> brick.h:17</div></div>
-<div class="ttc" id="classBrick_html"><div class="ttname"><a href="classBrick.html">Brick</a></div><div class="ttdoc">Oggetto di tipo QGraphicsItem. </div><div class="ttdef"><b>Definition:</b> brick.h:13</div></div>
-<div class="ttc" id="classBrick_html_a24b03ad8024c6c354126608dacc0e408"><div class="ttname"><a href="classBrick.html#a24b03ad8024c6c354126608dacc0e408">Brick::ypos</a></div><div class="ttdeci">qreal ypos</div><div class="ttdoc">Ordinata dello spigolo superiore sinistro di un generico mattone. </div><div class="ttdef"><b>Definition:</b> brick.h:18</div></div>
-<div class="ttc" id="classBrick_html_ae23a834a74abc557bcafbed1bff9bc8b"><div class="ttname"><a href="classBrick.html#ae23a834a74abc557bcafbed1bff9bc8b">Brick::destroyed</a></div><div class="ttdeci">bool destroyed</div><div class="ttdoc">Se settata a true, il brick non viene ridisegnato. </div><div class="ttdef"><b>Definition:</b> brick.h:19</div></div>
-<div class="ttc" id="classBrick_html_aa29d678c3d901c7b18cbc3a27a51be17"><div class="ttname"><a href="classBrick.html#aa29d678c3d901c7b18cbc3a27a51be17">Brick::Brick</a></div><div class="ttdeci">Brick()</div><div class="ttdoc">Funzione che definisce alcune caratteristiche dell&#39;oggetto Brick. </div><div class="ttdef"><b>Definition:</b> brick.cpp:7</div></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif // BRICK_H</span></div>
+<div class="ttc" id="classBrick_html_a8877ab7b1cf35ab3f53b286f40ab3775"><div class="ttname"><a href="classBrick.html#a8877ab7b1cf35ab3f53b286f40ab3775">Brick::xpos</a></div><div class="ttdeci">qreal xpos</div><div class="ttdef"><b>Definition:</b> brick.h:17</div></div>
+<div class="ttc" id="classBrick_html"><div class="ttname"><a href="classBrick.html">Brick</a></div><div class="ttdoc">Classe utilizzata per la creazione dei Bricks che costituiscono il muro. </div><div class="ttdef"><b>Definition:</b> brick.h:13</div></div>
+<div class="ttc" id="classBrick_html_a24b03ad8024c6c354126608dacc0e408"><div class="ttname"><a href="classBrick.html#a24b03ad8024c6c354126608dacc0e408">Brick::ypos</a></div><div class="ttdeci">qreal ypos</div><div class="ttdef"><b>Definition:</b> brick.h:18</div></div>
+<div class="ttc" id="classBrick_html_abfdde90ea6449907c6c0a8ccb3214587"><div class="ttname"><a href="classBrick.html#abfdde90ea6449907c6c0a8ccb3214587">Brick::rect</a></div><div class="ttdeci">QRectF rect</div><div class="ttdef"><b>Definition:</b> brick.h:22</div></div>
+<div class="ttc" id="classBrick_html_a4caf1a79fce7a93411b887304dcdbd64"><div class="ttname"><a href="classBrick.html#a4caf1a79fce7a93411b887304dcdbd64">Brick::paint</a></div><div class="ttdeci">void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)</div><div class="ttdef"><b>Definition:</b> brick.cpp:17</div></div>
+<div class="ttc" id="classBrick_html_a3eba50f745263db6060fe62bc04fc6fe"><div class="ttname"><a href="classBrick.html#a3eba50f745263db6060fe62bc04fc6fe">Brick::boundingRect</a></div><div class="ttdeci">QRectF boundingRect() const </div><div class="ttdef"><b>Definition:</b> brick.cpp:37</div></div>
+<div class="ttc" id="classBrick_html_ae23a834a74abc557bcafbed1bff9bc8b"><div class="ttname"><a href="classBrick.html#ae23a834a74abc557bcafbed1bff9bc8b">Brick::destroyed</a></div><div class="ttdeci">bool destroyed</div><div class="ttdef"><b>Definition:</b> brick.h:19</div></div>
+<div class="ttc" id="classBrick_html_aa29d678c3d901c7b18cbc3a27a51be17"><div class="ttname"><a href="classBrick.html#aa29d678c3d901c7b18cbc3a27a51be17">Brick::Brick</a></div><div class="ttdeci">Brick()</div><div class="ttdef"><b>Definition:</b> brick.cpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generato Lun 1 Set 2014 19:33:56 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
+Generato Ven 3 Ott 2014 12:25:06 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

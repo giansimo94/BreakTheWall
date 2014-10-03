@@ -71,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespace</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variabili</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespace</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Tipi enumerati (enum)</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valori del tipo enumerato</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Definizioni</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -84,13 +84,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Membri pubblici</a> &#124;
+<a href="#pri-methods">Membri privati</a> &#124;
+<a href="#pri-attribs">Attributi privati</a> &#124;
 <a href="classBall-members.html">Elenco di tutti i membri</a>  </div>
   <div class="headertitle">
 <div class="title">Riferimenti per la classe Ball</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Oggetto di tipo QGraphicsItem.  
+<p>Classe utilizzata per la creazione dell'oggetto ball.  
  <a href="classBall.html#details">Continua...</a></p>
 
 <p><code>#include &lt;<a class="el" href="ball_8h_source.html">ball.h</a>&gt;</code></p>
@@ -106,26 +108,36 @@ Diagramma delle classi per Ball</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Membri pubblici</h2></td></tr>
 <tr class="memitem:a86a144d3dad6c953e422e32435923bbb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#a86a144d3dad6c953e422e32435923bbb">Ball</a> ()</td></tr>
-<tr class="memdesc:a86a144d3dad6c953e422e32435923bbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che definisce alcune caratteristiche dell'oggetto <a class="el" href="classBall.html" title="Oggetto di tipo QGraphicsItem. ">Ball</a>.  <a href="#a86a144d3dad6c953e422e32435923bbb">Continua...</a><br/></td></tr>
 <tr class="separator:a86a144d3dad6c953e422e32435923bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f8964d3f58ce8750cd5c5202afbe838"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a> (qreal x)</td></tr>
-<tr class="memdesc:a2f8964d3f58ce8750cd5c5202afbe838"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione di scrittura.  <a href="#a2f8964d3f58ce8750cd5c5202afbe838">Continua...</a><br/></td></tr>
-<tr class="separator:a2f8964d3f58ce8750cd5c5202afbe838"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5addbcd83462faeae0bd725d5ee131d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">setYDir</a> (qreal y)</td></tr>
-<tr class="memdesc:a5addbcd83462faeae0bd725d5ee131d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione di scrittura.  <a href="#a5addbcd83462faeae0bd725d5ee131d5">Continua...</a><br/></td></tr>
-<tr class="separator:a5addbcd83462faeae0bd725d5ee131d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8ef49b4b2e62d3453de86f8f765a556"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">getXdir</a> ()</td></tr>
-<tr class="memdesc:ac8ef49b4b2e62d3453de86f8f765a556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione di lettura.  <a href="#ac8ef49b4b2e62d3453de86f8f765a556">Continua...</a><br/></td></tr>
 <tr class="separator:ac8ef49b4b2e62d3453de86f8f765a556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ac2a170cce00e6fd8beb95c8cdef29e"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#a9ac2a170cce00e6fd8beb95c8cdef29e">getYdir</a> ()</td></tr>
-<tr class="memdesc:a9ac2a170cce00e6fd8beb95c8cdef29e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione di lettura.  <a href="#a9ac2a170cce00e6fd8beb95c8cdef29e">Continua...</a><br/></td></tr>
 <tr class="separator:a9ac2a170cce00e6fd8beb95c8cdef29e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f8964d3f58ce8750cd5c5202afbe838"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a> (qreal x)</td></tr>
+<tr class="separator:a2f8964d3f58ce8750cd5c5202afbe838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5addbcd83462faeae0bd725d5ee131d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">setYDir</a> (qreal y)</td></tr>
+<tr class="separator:a5addbcd83462faeae0bd725d5ee131d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05228e822d67b25baf715cf09c325494"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#a05228e822d67b25baf715cf09c325494">move</a> ()</td></tr>
-<tr class="memdesc:a05228e822d67b25baf715cf09c325494"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funzione che muove la pallina mantenendola all'interno del rettangolo del gioco.  <a href="#a05228e822d67b25baf715cf09c325494">Continua...</a><br/></td></tr>
 <tr class="separator:a05228e822d67b25baf715cf09c325494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Membri privati</h2></td></tr>
+<tr class="memitem:ac61500d8ef7bbb595175da04c323949c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#ac61500d8ef7bbb595175da04c323949c">paint</a> (QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)</td></tr>
+<tr class="separator:ac61500d8ef7bbb595175da04c323949c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae68484e656a6c7a195e41185c06e9e8f"><td class="memItemLeft" align="right" valign="top">QRectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#ae68484e656a6c7a195e41185c06e9e8f">boundingRect</a> () const </td></tr>
+<tr class="separator:ae68484e656a6c7a195e41185c06e9e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Attributi privati</h2></td></tr>
+<tr class="memitem:a711ea72efadc6a71b28439cc36d9b63b"><td class="memItemLeft" align="right" valign="top">QRectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#a711ea72efadc6a71b28439cc36d9b63b">rect</a></td></tr>
+<tr class="separator:a711ea72efadc6a71b28439cc36d9b63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75d760f32668088955bb39aefd65ae89"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#a75d760f32668088955bb39aefd65ae89">xmove</a></td></tr>
+<tr class="separator:a75d760f32668088955bb39aefd65ae89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac74cf3d720ce618af268b8afaec57abb"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBall.html#ac74cf3d720ce618af268b8afaec57abb">ymove</a></td></tr>
+<tr class="separator:ac74cf3d720ce618af268b8afaec57abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descrizione dettagliata</h2>
-<div class="textblock"><p>Oggetto di tipo QGraphicsItem. </p>
+<div class="textblock"><p>Classe utilizzata per la creazione dell'oggetto ball. </p>
 </div><h2 class="groupheader">Documentazione dei costruttori e dei distruttori</h2>
 <a class="anchor" id="a86a144d3dad6c953e422e32435923bbb"></a>
 <div class="memitem">
@@ -139,8 +151,7 @@ Membri pubblici</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Funzione che definisce alcune caratteristiche dell'oggetto <a class="el" href="classBall.html" title="Oggetto di tipo QGraphicsItem. ">Ball</a>. </p>
+<p>Funzione che definisce alcune caratteristiche dell'oggetto <a class="el" href="classBall.html" title="Classe utilizzata per la creazione dell&#39;oggetto ball. ">Ball</a> </p>
 <div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        setFlag(ItemIsFocusable);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
@@ -150,17 +161,50 @@ Membri pubblici</h2></td></tr>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">         */</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">setYDir</a>(3);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">if</span> (qrand() % 2)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <a class="code" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a>(qrand() % 6);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a>(-(qrand() % 6));</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="ttc" id="classBall_html_a5addbcd83462faeae0bd725d5ee131d5"><div class="ttname"><a href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">Ball::setYDir</a></div><div class="ttdeci">void setYDir(qreal y)</div><div class="ttdoc">Funzione di scrittura. </div><div class="ttdef"><b>Definition:</b> ball.cpp:95</div></div>
-<div class="ttc" id="classBall_html_a2f8964d3f58ce8750cd5c5202afbe838"><div class="ttname"><a href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">Ball::setXDir</a></div><div class="ttdeci">void setXDir(qreal x)</div><div class="ttdoc">Funzione di scrittura. </div><div class="ttdef"><b>Definition:</b> ball.cpp:81</div></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">do</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keywordflow">if</span> (qrand() % 2)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <a class="code" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a>(qrand() % 3);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <a class="code" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a>(-(qrand() % 3));</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }   <span class="keywordflow">while</span> (<a class="code" href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">getXdir</a>()==0);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="ttc" id="classBall_html_a5addbcd83462faeae0bd725d5ee131d5"><div class="ttname"><a href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">Ball::setYDir</a></div><div class="ttdeci">void setYDir(qreal y)</div><div class="ttdef"><b>Definition:</b> ball.cpp:103</div></div>
+<div class="ttc" id="classBall_html_a2f8964d3f58ce8750cd5c5202afbe838"><div class="ttname"><a href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">Ball::setXDir</a></div><div class="ttdeci">void setXDir(qreal x)</div><div class="ttdef"><b>Definition:</b> ball.cpp:90</div></div>
+<div class="ttc" id="classBall_html_ac8ef49b4b2e62d3453de86f8f765a556"><div class="ttname"><a href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">Ball::getXdir</a></div><div class="ttdeci">qreal getXdir()</div><div class="ttdef"><b>Definition:</b> ball.cpp:114</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Documentazione delle funzioni membro</h2>
+<a class="anchor" id="ae68484e656a6c7a195e41185c06e9e8f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRectF Ball::boundingRect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This pure virtual function defines the outer bounds of the item as a rectangle; all painting must be restricted to inside an item's bounding rect. QGraphicsView uses this to determine whether the item requires redrawing. </p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">return</span> QRectF (18,40,10,10) ;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a class="anchor" id="ac8ef49b4b2e62d3453de86f8f765a556"></a>
 <div class="memitem">
 <div class="memproto">
@@ -173,12 +217,12 @@ Membri pubblici</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Funzione di lettura. </p>
+<p>Funzione di lettura.</p>
 <dl class="section return"><dt>Restituisce</dt><dd>Il valore della variabile xmove </dd></dl>
-<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;{</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">return</span> xmove;  <span class="comment">//coordinata di movimento rispetto all&#39;ascissa</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classBall.html#a75d760f32668088955bb39aefd65ae89">xmove</a>;  <span class="comment">//coordinata di movimento rispetto all&#39;ascissa</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;}</div>
+<div class="ttc" id="classBall_html_a75d760f32668088955bb39aefd65ae89"><div class="ttname"><a href="classBall.html#a75d760f32668088955bb39aefd65ae89">Ball::xmove</a></div><div class="ttdeci">qreal xmove</div><div class="ttdef"><b>Definition:</b> ball.h:26</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -194,12 +238,12 @@ Membri pubblici</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Funzione di lettura. </p>
+<p>Funzione di lettura.</p>
 <dl class="section return"><dt>Restituisce</dt><dd>Il valore della variabile ymove </dd></dl>
-<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;{</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">return</span> ymove;  <span class="comment">//coordinata di movimento rispetto all&#39;ordinata</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;{</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classBall.html#ac74cf3d720ce618af268b8afaec57abb">ymove</a>;  <span class="comment">//coordinata di movimento rispetto all&#39;ordinata</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
+<div class="ttc" id="classBall_html_ac74cf3d720ce618af268b8afaec57abb"><div class="ttname"><a href="classBall.html#ac74cf3d720ce618af268b8afaec57abb">Ball::ymove</a></div><div class="ttdeci">qreal ymove</div><div class="ttdef"><b>Definition:</b> ball.h:27</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -215,30 +259,84 @@ Membri pubblici</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Funzione che muove la pallina mantenendola all'interno del rettangolo del gioco. </p>
-<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    moveBy(<a class="code" href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">getXdir</a>(), -<a class="code" href="classBall.html#a9ac2a170cce00e6fd8beb95c8cdef29e">getYdir</a>());</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">// Controlla collisione con lato sinistro del rettangolo</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">if</span> (x() &lt;= -170)</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a>(-<a class="code" href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">getXdir</a>());</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// Controlla collisione con lato destro del rettangolo</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">if</span> (x() &gt;= 170)</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a>(-<a class="code" href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">getXdir</a>());</div>
+<p>Funzione che muove la pallina mantenendola all'interno del rettangolo del gioco </p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">//Sposto la pallina secondo le coordinate di movimento</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    moveBy(<a class="code" href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">getXdir</a>(), -<a class="code" href="classBall.html#a9ac2a170cce00e6fd8beb95c8cdef29e">getYdir</a>());</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">// Controlla collisione con il bordo superiore del rettangolo</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">if</span> (y() &lt;= -535)</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">// Controlla collisione con lato sinistro del rettangolo</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">if</span> (x() &lt;= -170)</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">setYDir</a>(-<a class="code" href="classBall.html#a9ac2a170cce00e6fd8beb95c8cdef29e">getYdir</a>());</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
-<div class="ttc" id="classBall_html_a5addbcd83462faeae0bd725d5ee131d5"><div class="ttname"><a href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">Ball::setYDir</a></div><div class="ttdeci">void setYDir(qreal y)</div><div class="ttdoc">Funzione di scrittura. </div><div class="ttdef"><b>Definition:</b> ball.cpp:95</div></div>
-<div class="ttc" id="classBall_html_a2f8964d3f58ce8750cd5c5202afbe838"><div class="ttname"><a href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">Ball::setXDir</a></div><div class="ttdeci">void setXDir(qreal x)</div><div class="ttdoc">Funzione di scrittura. </div><div class="ttdef"><b>Definition:</b> ball.cpp:81</div></div>
-<div class="ttc" id="classBall_html_ac8ef49b4b2e62d3453de86f8f765a556"><div class="ttname"><a href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">Ball::getXdir</a></div><div class="ttdeci">qreal getXdir()</div><div class="ttdoc">Funzione di lettura. </div><div class="ttdef"><b>Definition:</b> ball.cpp:106</div></div>
-<div class="ttc" id="classBall_html_a9ac2a170cce00e6fd8beb95c8cdef29e"><div class="ttname"><a href="classBall.html#a9ac2a170cce00e6fd8beb95c8cdef29e">Ball::getYdir</a></div><div class="ttdeci">qreal getYdir()</div><div class="ttdoc">Funzione di lettura. </div><div class="ttdef"><b>Definition:</b> ball.cpp:117</div></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a>(-<a class="code" href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">getXdir</a>());</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">// Controlla collisione con lato destro del rettangolo</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span> (x() &gt;= 170)</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a>(-<a class="code" href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">getXdir</a>());</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// Controlla collisione con il bordo superiore del rettangolo</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">if</span> (y() &lt;= -535)</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">setYDir</a>(-<a class="code" href="classBall.html#a9ac2a170cce00e6fd8beb95c8cdef29e">getYdir</a>());</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
+<div class="ttc" id="classBall_html_a5addbcd83462faeae0bd725d5ee131d5"><div class="ttname"><a href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">Ball::setYDir</a></div><div class="ttdeci">void setYDir(qreal y)</div><div class="ttdef"><b>Definition:</b> ball.cpp:103</div></div>
+<div class="ttc" id="classBall_html_a2f8964d3f58ce8750cd5c5202afbe838"><div class="ttname"><a href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">Ball::setXDir</a></div><div class="ttdeci">void setXDir(qreal x)</div><div class="ttdef"><b>Definition:</b> ball.cpp:90</div></div>
+<div class="ttc" id="classBall_html_ac8ef49b4b2e62d3453de86f8f765a556"><div class="ttname"><a href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">Ball::getXdir</a></div><div class="ttdeci">qreal getXdir()</div><div class="ttdef"><b>Definition:</b> ball.cpp:114</div></div>
+<div class="ttc" id="classBall_html_a9ac2a170cce00e6fd8beb95c8cdef29e"><div class="ttname"><a href="classBall.html#a9ac2a170cce00e6fd8beb95c8cdef29e">Ball::getYdir</a></div><div class="ttdeci">qreal getYdir()</div><div class="ttdef"><b>Definition:</b> ball.cpp:125</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac61500d8ef7bbb595175da04c323949c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ball::paint </td>
+          <td>(</td>
+          <td class="paramtype">QPainter *&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QStyleOptionGraphicsItem *&#160;</td>
+          <td class="paramname"><em>option</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>widget</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This function, which is usually called by QGraphicsView, paints the contents of an item in local coordinates. </p>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="classBall.html#a711ea72efadc6a71b28439cc36d9b63b">rect</a> = <a class="code" href="classBall.html#ae68484e656a6c7a195e41185c06e9e8f">boundingRect</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">// Definisco il gradiente e disegno la pallina</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    QLinearGradient grad(15,15,10,10);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    grad.setColorAt(0.0,Qt::black);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    grad.setColorAt(1.0,Qt::gray);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    painter-&gt;setBrush(grad);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    painter-&gt;drawEllipse(<a class="code" href="classBall.html#a711ea72efadc6a71b28439cc36d9b63b">rect</a>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
+<div class="ttc" id="classBall_html_a711ea72efadc6a71b28439cc36d9b63b"><div class="ttname"><a href="classBall.html#a711ea72efadc6a71b28439cc36d9b63b">Ball::rect</a></div><div class="ttdeci">QRectF rect</div><div class="ttdef"><b>Definition:</b> ball.h:25</div></div>
+<div class="ttc" id="classBall_html_ae68484e656a6c7a195e41185c06e9e8f"><div class="ttname"><a href="classBall.html#ae68484e656a6c7a195e41185c06e9e8f">Ball::boundingRect</a></div><div class="ttdeci">QRectF boundingRect() const </div><div class="ttdef"><b>Definition:</b> ball.cpp:36</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -255,18 +353,18 @@ Membri pubblici</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Funzione di scrittura. </p>
+<p>Funzione di scrittura.</p>
 <p>Setta la variabile xmove al valore della variabile in ingresso</p>
 <dl class="params"><dt>Parametri</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>coordinata di movimento della pallina rispetto all'ascissa. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td></td></tr>
   </table>
   </dd>
 </dl>
-<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;{</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    xmove = x;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;{</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <a class="code" href="classBall.html#a75d760f32668088955bb39aefd65ae89">xmove</a> = x;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
+<div class="ttc" id="classBall_html_a75d760f32668088955bb39aefd65ae89"><div class="ttname"><a href="classBall.html#a75d760f32668088955bb39aefd65ae89">Ball::xmove</a></div><div class="ttdeci">qreal xmove</div><div class="ttdef"><b>Definition:</b> ball.h:26</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -283,29 +381,92 @@ Membri pubblici</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Funzione di scrittura. </p>
+<p>Funzione di scrittura.</p>
 <p>Setta la variabile ymove al valore della variabile in ingresso</p>
 <dl class="params"><dt>Parametri</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>coordinata di movimento della pallina rispetto all'ordinata. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td></td></tr>
   </table>
   </dd>
 </dl>
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    ymove = y;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="classBall.html#ac74cf3d720ce618af268b8afaec57abb">ymove</a> = y;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
+<div class="ttc" id="classBall_html_ac74cf3d720ce618af268b8afaec57abb"><div class="ttname"><a href="classBall.html#ac74cf3d720ce618af268b8afaec57abb">Ball::ymove</a></div><div class="ttdeci">qreal ymove</div><div class="ttdef"><b>Definition:</b> ball.h:27</div></div>
 </div><!-- fragment -->
 </div>
 </div>
+<h2 class="groupheader">Documentazione dei membri dato</h2>
+<a class="anchor" id="a711ea72efadc6a71b28439cc36d9b63b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRectF Ball::rect</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a75d760f32668088955bb39aefd65ae89"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ball::xmove</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>coordinata di movimento della pallina rispetto all'ascissa </p>
+
+</div>
+</div>
+<a class="anchor" id="ac74cf3d720ce618af268b8afaec57abb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ball::ymove</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>coordinata di movimento della pallina rispetto all'ordinata </p>
+
+</div>
+</div>
 <hr/>La documentazione per questa classe è stata generata a partire dai seguenti file:<ul>
-<li><a class="el" href="ball_8h_source.html">ball.h</a></li>
-<li><a class="el" href="ball_8cpp.html">ball.cpp</a></li>
+<li>src/<a class="el" href="ball_8h_source.html">ball.h</a></li>
+<li>src/<a class="el" href="ball_8cpp.html">ball.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generato Lun 1 Set 2014 19:33:56 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
+Generato Ven 3 Ott 2014 12:25:06 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
