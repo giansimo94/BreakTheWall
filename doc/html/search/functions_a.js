@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['retranslateui',['retranslateUi',['../classUi__BreakTheWall.html#a33dffad909e3d0161e20a91a82c8aaa4',1,'Ui_BreakTheWall::retranslateUi()'],['../classUi__Instructions.html#ae8f900a2a871464edfdc56c96b2ad56e',1,'Ui_Instructions::retranslateUi()'],['../classUi__Menu.html#a38ad439b78afbcecfc11dabb7fb03e57',1,'Ui_Menu::retranslateUi()'],['../classUi__TopScores.html#a95bab4a270457ff9a075bd523d1f31b5',1,'Ui_TopScores::retranslateUi()']]]
+  ['save',['save',['../structSave__Load.html#a38109e1ea43f3c895d90c1abb4a1a402',1,'Save_Load']]],
+  ['set_5fcoord',['set_coord',['../classBonusItem.html#a437997e0134d189cb9f364d231aaa521',1,'BonusItem']]],
+  ['setcolor',['setcolor',['../classBonusItem.html#aa426be7ef887bad3ec3d5bc85df86077',1,'BonusItem']]],
+  ['setxdir',['setXDir',['../classBall.html#a2f8964d3f58ce8750cd5c5202afbe838',1,'Ball']]],
+  ['setydir',['setYDir',['../classBall.html#a5addbcd83462faeae0bd725d5ee131d5',1,'Ball']]]
 ];

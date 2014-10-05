@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['paddle',['paddle',['../classBreakTheWall.html#ad7154f1527a3d0cf461a548998eb91a8',1,'BreakTheWall']]],
-  ['points',['POINTS',['../structScore.html#affa6f0dc4c041e0e8f04fe8a5580d264',1,'Score::POINTS()'],['../classBreakTheWall.html#a379c6f1e1620d69c5ca8d1d7dcbd962f',1,'BreakTheWall::Points()']]],
-  ['punti',['Punti',['../classUi__BreakTheWall.html#ac47615437696338b6df71bebb549817c',1,'Ui_BreakTheWall']]],
-  ['pushbutton',['pushButton',['../classUi__Instructions.html#a2b8f90304437383d2ce2f1e928b720d7',1,'Ui_Instructions']]]
+  ['ui',['ui',['../classBreakTheWall.html#aa21c0df776bc3f2ac249fcf0662f92d9',1,'BreakTheWall::ui()'],['../classInstructions.html#a5b0335b9bcd95e4fe0b97e90d575474b',1,'Instructions::ui()'],['../classMenu.html#ae3402b8368935a73ec4dcb46547144e0',1,'Menu::ui()'],['../classTopScores.html#a9b7a59d37fc2f7afbd88d8e2b6398271',1,'TopScores::ui()']]]
 ];

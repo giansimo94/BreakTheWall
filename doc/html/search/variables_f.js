@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['tableview',['tableView',['../classUi__TopScores.html#ad4079811195af4d38c393c9af7ce8b32',1,'Ui_TopScores']]],
-  ['textbrowser',['textBrowser',['../classUi__Instructions.html#aee56ca9a405eaa486559487d1fed714e',1,'Ui_Instructions']]],
-  ['timeid',['timeId',['../classBreakTheWall.html#ac34d3eaa24128ef4b4fa4ff6345a62dc',1,'BreakTheWall']]],
-  ['timer',['timer',['../classBreakTheWall.html#a9f7d01be1818c70aed32e3fa282e01ff',1,'BreakTheWall']]],
-  ['topscores',['TopScores',['../classBreakTheWall.html#a74fc2c673302083194afdab639ac62ff',1,'BreakTheWall::TopScores()'],['../classUi__Menu.html#a245c6c72fd82a375d4f2c23116007694',1,'Ui_Menu::TopScores()'],['../classMenu.html#ac65ba7a411ccdef8e5e6ecf23ae6d354',1,'Menu::Topscores()'],['../classTopScores.html#aa29b2469a6076ec9e97fe88a79e7e04f',1,'TopScores::Topscores()']]]
+  ['ybrick',['yBrick',['../classBreakTheWall.html#acee1f0502285d84771cc40b96330f618',1,'BreakTheWall']]],
+  ['ymove',['ymove',['../classBall.html#ac74cf3d720ce618af268b8afaec57abb',1,'Ball']]],
+  ['ypos',['ypos',['../classBonusItem.html#a0de960150892031ec276b3b0aeadb904',1,'BonusItem::ypos()'],['../classBrick.html#a24b03ad8024c6c354126608dacc0e408',1,'Brick::ypos()'],['../classMissile.html#a8b42a569ac31ef671e94ab16bec09ba0',1,'Missile::ypos()']]]
 ];

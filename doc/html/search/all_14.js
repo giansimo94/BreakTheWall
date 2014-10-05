@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['xbrick',['xBrick',['../classBreakTheWall.html#a93dfb7240ab943005b0e352699779d1e',1,'BreakTheWall']]],
-  ['xmove',['xmove',['../classBall.html#a75d760f32668088955bb39aefd65ae89',1,'Ball']]],
-  ['xpos',['xpos',['../classBonusItem.html#a7decd44f96e44eba3737650cc345e9ce',1,'BonusItem::xpos()'],['../classBrick.html#a8877ab7b1cf35ab3f53b286f40ab3775',1,'Brick::xpos()'],['../classMissile.html#a78e24ee949f18e1e07e76922f27e556d',1,'Missile::xpos()']]]
+  ['_7ebreakthewall',['~BreakTheWall',['../classBreakTheWall.html#acd319cebd67c0207a9621d9b53e78ef1',1,'BreakTheWall']]],
+  ['_7einstructions',['~Instructions',['../classInstructions.html#a5c2bb7d2ebeadb26dfd6351679d3eeb1',1,'Instructions']]],
+  ['_7emenu',['~Menu',['../classMenu.html#a831387f51358cfb88cd018e1777bc980',1,'Menu']]],
+  ['_7etopscores',['~TopScores',['../classTopScores.html#a79f19e88d5667c0b6986127e30698ac0',1,'TopScores']]]
 ];

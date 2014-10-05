@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fire_5fmode',['fire_mode',['../classBreakTheWall.html#a0211d921696d13d3c368a72a2b3ba564',1,'BreakTheWall']]]
+  ['istrdial',['istrDial',['../classMenu.html#af5ed1ea7e6c77f6f455fa9a7a92dd27f',1,'Menu']]]
 ];

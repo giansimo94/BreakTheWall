@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['horizontallayout',['horizontalLayout',['../classUi__TopScores.html#a091a69c189f124d711fe218e9d09788e',1,'Ui_TopScores']]],
-  ['howtoplay',['HowToPlay',['../classUi__Menu.html#a6cd8a99417cc03617c6dc724fc9f61bc',1,'Ui_Menu']]]
+  ['name',['name',['../classBreakTheWall.html#a84c03dc30d6ff96e241b6cd342f43c46',1,'BreakTheWall']]],
+  ['nome',['Nome',['../structScore.html#ae95cbed10f911a2bff20194a1453cb18',1,'Score']]]
 ];
