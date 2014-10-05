@@ -125,7 +125,7 @@ Slot privati</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Attributi privati</h2></td></tr>
-<tr class="memitem:ae3402b8368935a73ec4dcb46547144e0"><td class="memItemLeft" align="right" valign="top">Ui::Menu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenu.html#ae3402b8368935a73ec4dcb46547144e0">ui</a></td></tr>
+<tr class="memitem:ae3402b8368935a73ec4dcb46547144e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUi_1_1Menu.html">Ui::Menu</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenu.html#ae3402b8368935a73ec4dcb46547144e0">ui</a></td></tr>
 <tr class="separator:ae3402b8368935a73ec4dcb46547144e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e16f585ccbcab0aae79068bdaba1a2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMenu.html">Menu</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMenu.html#a3e16f585ccbcab0aae79068bdaba1a2e">menu</a></td></tr>
 <tr class="separator:a3e16f585ccbcab0aae79068bdaba1a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,11 +167,15 @@ Attributi privati</h2></td></tr>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;                          :</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    QMainWindow(parent),</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="classMenu.html#ae3402b8368935a73ec4dcb46547144e0">ui</a>(<span class="keyword">new</span> Ui::Menu)</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="classMenu.html#ae3402b8368935a73ec4dcb46547144e0">ui</a>(<span class="keyword">new</span> <a class="code" href="classUi_1_1Menu.html">Ui::Menu</a>)</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="classMenu.html#ae3402b8368935a73ec4dcb46547144e0">ui</a>-&gt;setupUi(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    setMaximumSize(500,500);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    setGeometry(450,150,500,500);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="classMenu.html#ae3402b8368935a73ec4dcb46547144e0">ui</a>-&gt;<a class="code" href="classUi__Menu.html#a5f4a5568224259c3e5a1a39030de0753">setupUi</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
+<div class="ttc" id="classUi_1_1Menu_html"><div class="ttname"><a href="classUi_1_1Menu.html">Ui::Menu</a></div><div class="ttdef"><b>Definition:</b> ui_menu.h:75</div></div>
 <div class="ttc" id="classMenu_html_ae3402b8368935a73ec4dcb46547144e0"><div class="ttname"><a href="classMenu.html#ae3402b8368935a73ec4dcb46547144e0">Menu::ui</a></div><div class="ttdeci">Ui::Menu * ui</div><div class="ttdef"><b>Definition:</b> menu.h:45</div></div>
+<div class="ttc" id="classUi__Menu_html_a5f4a5568224259c3e5a1a39030de0753"><div class="ttname"><a href="classUi__Menu.html#a5f4a5568224259c3e5a1a39030de0753">Ui_Menu::setupUi</a></div><div class="ttdeci">void setupUi(QMainWindow *Menu)</div><div class="ttdef"><b>Definition:</b> ui_menu.h:32</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -187,9 +191,9 @@ Attributi privati</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">delete</span> <a class="code" href="classMenu.html#ae3402b8368935a73ec4dcb46547144e0">ui</a>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">delete</span> <a class="code" href="classMenu.html#ae3402b8368935a73ec4dcb46547144e0">ui</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
 <div class="ttc" id="classMenu_html_ae3402b8368935a73ec4dcb46547144e0"><div class="ttname"><a href="classMenu.html#ae3402b8368935a73ec4dcb46547144e0">Menu::ui</a></div><div class="ttdeci">Ui::Menu * ui</div><div class="ttdef"><b>Definition:</b> menu.h:45</div></div>
 </div><!-- fragment -->
 </div>
@@ -216,9 +220,9 @@ Attributi privati</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Esce dal gioco </p>
-<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    this-&gt;close();</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    this-&gt;close();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -243,11 +247,12 @@ Attributi privati</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Visualizzazione istruzioni e comandi del gioco </p>
-<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="classMenu.html#af5ed1ea7e6c77f6f455fa9a7a92dd27f">istrDial</a> = <span class="keyword">new</span> <a class="code" href="classInstructions.html">Instructions</a>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="classMenu.html#af5ed1ea7e6c77f6f455fa9a7a92dd27f">istrDial</a>-&gt;exec();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="classMenu.html#af5ed1ea7e6c77f6f455fa9a7a92dd27f">istrDial</a> = <span class="keyword">new</span> <a class="code" href="classInstructions.html">Instructions</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="classMenu.html#af5ed1ea7e6c77f6f455fa9a7a92dd27f">istrDial</a>-&gt;setMaximumSize(550,510);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="classMenu.html#af5ed1ea7e6c77f6f455fa9a7a92dd27f">istrDial</a>-&gt;exec();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
 <div class="ttc" id="classInstructions_html"><div class="ttname"><a href="classInstructions.html">Instructions</a></div><div class="ttdoc">Finestra che visualizza i comandi del gioco. </div><div class="ttdef"><b>Definition:</b> instructions.h:14</div></div>
 <div class="ttc" id="classMenu_html_af5ed1ea7e6c77f6f455fa9a7a92dd27f"><div class="ttname"><a href="classMenu.html#af5ed1ea7e6c77f6f455fa9a7a92dd27f">Menu::istrDial</a></div><div class="ttdeci">Instructions * istrDial</div><div class="ttdef"><b>Definition:</b> menu.h:47</div></div>
 </div><!-- fragment -->
@@ -274,12 +279,13 @@ Attributi privati</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Visualizzazione della schermata del gioco </p>
-<div class="fragment"><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="classBreakTheWall.html">BreakTheWall</a> *newBTW = <span class="keyword">new</span> <a class="code" href="classBreakTheWall.html">BreakTheWall</a>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        newBTW-&gt;setMaximumSize(1000,1000);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        newBTW-&gt;exec();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="classBreakTheWall.html">BreakTheWall</a> *newBTW = <span class="keyword">new</span> <a class="code" href="classBreakTheWall.html">BreakTheWall</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        newBTW-&gt;setMaximumSize(600,700);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        newBTW-&gt;setGeometry(450,100,600,700);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        newBTW-&gt;exec();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
 <div class="ttc" id="classBreakTheWall_html"><div class="ttname"><a href="classBreakTheWall.html">BreakTheWall</a></div><div class="ttdoc">Classe principale utilizzata per la gestione del gioco. </div><div class="ttdef"><b>Definition:</b> breakthewall.h:28</div></div>
 </div><!-- fragment -->
 </div>
@@ -305,10 +311,11 @@ Attributi privati</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Funzione che permette di visualizzare i 10 <a class="el" href="classTopScores.html" title="Finestra che visualizza i 10 top scores. ">TopScores</a> </p>
-<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="classMenu.html#ac65ba7a411ccdef8e5e6ecf23ae6d354">Topscores</a> = <span class="keyword">new</span> <a class="code" href="classTopScores.html">TopScores</a>;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="classMenu.html#ac65ba7a411ccdef8e5e6ecf23ae6d354">Topscores</a>-&gt;exec();</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="classMenu.html#ac65ba7a411ccdef8e5e6ecf23ae6d354">Topscores</a> = <span class="keyword">new</span> <a class="code" href="classTopScores.html">TopScores</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="classMenu.html#ac65ba7a411ccdef8e5e6ecf23ae6d354">Topscores</a>-&gt;setMaximumSize(255,420);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="classMenu.html#ac65ba7a411ccdef8e5e6ecf23ae6d354">Topscores</a>-&gt;exec();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
 <div class="ttc" id="classMenu_html_ac65ba7a411ccdef8e5e6ecf23ae6d354"><div class="ttname"><a href="classMenu.html#ac65ba7a411ccdef8e5e6ecf23ae6d354">Menu::Topscores</a></div><div class="ttdeci">TopScores * Topscores</div><div class="ttdef"><b>Definition:</b> menu.h:48</div></div>
 <div class="ttc" id="classTopScores_html"><div class="ttname"><a href="classTopScores.html">TopScores</a></div><div class="ttdoc">Finestra che visualizza i 10 top scores. </div><div class="ttdef"><b>Definition:</b> topscores.h:22</div></div>
 </div><!-- fragment -->
@@ -383,7 +390,7 @@ Attributi privati</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Ui::Menu* Menu::ui</td>
+          <td class="memname"><a class="el" href="classUi_1_1Menu.html">Ui::Menu</a>* Menu::ui</td>
         </tr>
       </table>
   </td>
@@ -402,7 +409,7 @@ Attributi privati</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generato Ven 3 Ott 2014 13:24:59 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
+Generato Dom 5 Ott 2014 12:27:59 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

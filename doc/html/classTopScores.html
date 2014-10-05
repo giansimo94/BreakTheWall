@@ -129,7 +129,7 @@ Membri privati</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Attributi privati</h2></td></tr>
-<tr class="memitem:a9b7a59d37fc2f7afbd88d8e2b6398271"><td class="memItemLeft" align="right" valign="top">Ui::TopScores *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTopScores.html#a9b7a59d37fc2f7afbd88d8e2b6398271">ui</a></td></tr>
+<tr class="memitem:a9b7a59d37fc2f7afbd88d8e2b6398271"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUi_1_1TopScores.html">Ui::TopScores</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTopScores.html#a9b7a59d37fc2f7afbd88d8e2b6398271">ui</a></td></tr>
 <tr class="separator:a9b7a59d37fc2f7afbd88d8e2b6398271"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a179b451a1613ef06853f19d5b89ea285"><td class="memItemLeft" align="right" valign="top">QStandardItemModel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTopScores.html#a179b451a1613ef06853f19d5b89ea285">model</a></td></tr>
 <tr class="separator:a179b451a1613ef06853f19d5b89ea285"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,9 +164,9 @@ Attributi privati</h2></td></tr>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;                                    :</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    QDialog(parent),</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="classTopScores.html#a9b7a59d37fc2f7afbd88d8e2b6398271">ui</a>(<span class="keyword">new</span> Ui::TopScores)</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="classTopScores.html#a9b7a59d37fc2f7afbd88d8e2b6398271">ui</a>(<span class="keyword">new</span> <a class="code" href="classUi_1_1TopScores.html">Ui::TopScores</a>)</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="classTopScores.html#a9b7a59d37fc2f7afbd88d8e2b6398271">ui</a>-&gt;setupUi(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="classTopScores.html#a9b7a59d37fc2f7afbd88d8e2b6398271">ui</a>-&gt;<a class="code" href="classUi__TopScores.html#a34702157743958790cb8b5ee647dc3fe">setupUi</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="classTopScores.html#a179b451a1613ef06853f19d5b89ea285">model</a> = <span class="keyword">new</span> QStandardItemModel;</div>
@@ -178,12 +178,15 @@ Attributi privati</h2></td></tr>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="classTopScores.html#a179b451a1613ef06853f19d5b89ea285">model</a>-&gt;setHorizontalHeaderItem(0, <span class="keyword">new</span> QStandardItem(QString(<span class="stringliteral">&quot;Name&quot;</span>)));</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="classTopScores.html#a179b451a1613ef06853f19d5b89ea285">model</a>-&gt;setHorizontalHeaderItem(1, <span class="keyword">new</span> QStandardItem(QString(<span class="stringliteral">&quot;Score&quot;</span>)));</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="classTopScores.html#a9b7a59d37fc2f7afbd88d8e2b6398271">ui</a>-&gt;tableView-&gt;setModel(<a class="code" href="classTopScores.html#a179b451a1613ef06853f19d5b89ea285">model</a>);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="classTopScores.html#a9b7a59d37fc2f7afbd88d8e2b6398271">ui</a>-&gt;<a class="code" href="classUi__TopScores.html#ad4079811195af4d38c393c9af7ce8b32">tableView</a>-&gt;setModel(<a class="code" href="classTopScores.html#a179b451a1613ef06853f19d5b89ea285">model</a>);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="classTopScores.html#ad7e821d645a80201ce0ddd9b0255ade8">loadTopScores</a>();</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
 <div class="ttc" id="classTopScores_html_a179b451a1613ef06853f19d5b89ea285"><div class="ttname"><a href="classTopScores.html#a179b451a1613ef06853f19d5b89ea285">TopScores::model</a></div><div class="ttdeci">QStandardItemModel * model</div><div class="ttdef"><b>Definition:</b> topscores.h:33</div></div>
+<div class="ttc" id="classUi__TopScores_html_ad4079811195af4d38c393c9af7ce8b32"><div class="ttname"><a href="classUi__TopScores.html#ad4079811195af4d38c393c9af7ce8b32">Ui_TopScores::tableView</a></div><div class="ttdeci">QTableView * tableView</div><div class="ttdef"><b>Definition:</b> ui_topscores.h:30</div></div>
+<div class="ttc" id="classUi__TopScores_html_a34702157743958790cb8b5ee647dc3fe"><div class="ttname"><a href="classUi__TopScores.html#a34702157743958790cb8b5ee647dc3fe">Ui_TopScores::setupUi</a></div><div class="ttdeci">void setupUi(QDialog *TopScores)</div><div class="ttdef"><b>Definition:</b> ui_topscores.h:35</div></div>
+<div class="ttc" id="classUi_1_1TopScores_html"><div class="ttname"><a href="classUi_1_1TopScores.html">Ui::TopScores</a></div><div class="ttdef"><b>Definition:</b> ui_topscores.h:90</div></div>
 <div class="ttc" id="classTopScores_html_a9b7a59d37fc2f7afbd88d8e2b6398271"><div class="ttname"><a href="classTopScores.html#a9b7a59d37fc2f7afbd88d8e2b6398271">TopScores::ui</a></div><div class="ttdeci">Ui::TopScores * ui</div><div class="ttdef"><b>Definition:</b> topscores.h:32</div></div>
 <div class="ttc" id="classTopScores_html_ad7e821d645a80201ce0ddd9b0255ade8"><div class="ttname"><a href="classTopScores.html#ad7e821d645a80201ce0ddd9b0255ade8">TopScores::loadTopScores</a></div><div class="ttdeci">void loadTopScores()</div><div class="ttdef"><b>Definition:</b> topscores.cpp:49</div></div>
 </div><!-- fragment -->
@@ -410,7 +413,7 @@ Attributi privati</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Ui::TopScores* TopScores::ui</td>
+          <td class="memname"><a class="el" href="classUi_1_1TopScores.html">Ui::TopScores</a>* TopScores::ui</td>
         </tr>
       </table>
   </td>
@@ -429,7 +432,7 @@ Attributi privati</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generato Ven 3 Ott 2014 13:24:59 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
+Generato Dom 5 Ott 2014 12:27:59 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
