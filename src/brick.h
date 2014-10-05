@@ -1,8 +1,7 @@
 #ifndef BRICK_H
 #define BRICK_H
 
-#include <QtGui>
-#include <QtCore>
+#include <QPainter>
 #include <QGraphicsItem>
 
 /**

@@ -1,11 +1,8 @@
 #ifndef MISSILE_H
 #define MISSILE_H
 
-
-#include <QtCore>
-#include <QtGui>
+#include <QPainter>
 #include <QGraphicsItem>
-
 
 /**
  * @brief

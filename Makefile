@@ -365,6 +365,8 @@ clean:compiler_clean
 	-$(DEL_FILE) $(OBJECTS)
 	-$(DEL_FILE) *~ core *.core
 
+depend:	
+	$(CXX) -MM src/*.cpp $(INCPATH) $(CXXFLAGS) 
 
 ####### Sub-libraries
 
@@ -502,7 +504,7 @@ moc_breakthewall.cpp: /usr/include/qt5/QtWidgets/QDialog \
 		/usr/include/qt5/QtGui/qpen.h \
 		/usr/include/qt5/QtGui/qtextoption.h \
 		/usr/include/qt5/QtGui/QtGui \
-		/usr/include/qt5/QtGui/QtGuiDepends \
+		/usr/include/qt5/QtGui/QtGui \
 		/usr/include/qt5/QtCore/QtCore \
 		/usr/include/qt5/QtCore/QtCoreDepends \
 		/usr/include/qt5/QtCore/qabstractanimation.h \

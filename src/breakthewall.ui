@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Break The Wall</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>

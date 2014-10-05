@@ -3,9 +3,8 @@
 
 #include <QDialog>
 #include <QInputDialog>
-#include <QtGui>
+#include <QKeyEvent>
 #include <QLabel>
-#include <QtCore>
 #include <QGraphicsScene>
 #include <QMessageBox>
 #include <src/paddle.h>
@@ -36,6 +35,7 @@ public:
 
 public slots:
     void endBonusTime();
+    void closeEvent(QCloseEvent *event);
 
 private:
     Ui::BreakTheWall *ui;

@@ -1,8 +1,7 @@
 #ifndef BALL_H
 #define BALL_H
 
-#include <QtCore>
-#include <QtGui>
+#include <QPainter>
 #include <QGraphicsItem>
 
 /**

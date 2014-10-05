@@ -1,9 +1,7 @@
 #ifndef PADDLE_H
 #define PADDLE_H
 
-
-#include <QtGui>
-#include <QtCore>
+#include <QPainter>
 #include <QGraphicsItem>
 
 /**

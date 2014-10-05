@@ -26,14 +26,17 @@
 
 /**
  * Funzione che inizializza le variabili
- * e crea la scena aggiungendo tutte le componenti/oggetti.
- *
+ * e crea la scena aggiungendo tutte le componenti/oggetti
  */
 BreakTheWall::BreakTheWall(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::BreakTheWall)
 {
     ui->setupUi(this);
+
+    // Nascondo la finestra del menu
+    parent->setVisible(false);
+
     ui->graphicsView->setRenderHint(QPainter::Antialiasing);
 
     // Inizializza le variabili
@@ -115,6 +118,13 @@ BreakTheWall::~BreakTheWall()
     delete paddle;
     delete ui;
 
+}
+
+/**
+ * Invocata quando la finestra viene chiusa, rende visibile la finestra del menu.
+ */
+void BreakTheWall::closeEvent(QCloseEvent *){
+    parentWidget()->setVisible(true);
 }
 
 

@@ -1,8 +1,7 @@
 #ifndef BONUSITEM_H
 #define BONUSITEM_H
 
-#include <QtCore>
-#include <QtGui>
+#include <QPainter>
 #include <QGraphicsItem>
 
 

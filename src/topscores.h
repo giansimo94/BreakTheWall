@@ -2,7 +2,7 @@
 #define TOPSCORES_H
 
 #include <QDialog>
-#include <QtGui>
+#include <QStandardItem>
 #include <QLabel>
 #include <QtCore>
 #include <QTableView>

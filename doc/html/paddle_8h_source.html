@@ -91,41 +91,39 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
 <a href="paddle_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PADDLE_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PADDLE_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QtGui&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QtCore&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;QGraphicsItem&gt;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classPaddle.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPaddle.html">Paddle</a> : <span class="keyword">public</span> QGraphicsItem</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="classPaddle.html#a53895671ddfde9ba668546065ec4f164">Paddle</a>();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classPaddle.html#a16f9269b5aadbfa22ce261e15b1ac3d3">   21</a></span>&#160;    QRectF <a class="code" href="classPaddle.html#a16f9269b5aadbfa22ce261e15b1ac3d3">rect</a>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="comment">//Funzioni</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classPaddle.html#a7b53c543e3fa8d4118a19a0b0ba3f07f">paint</a>(QPainter *painter,</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;               <span class="keyword">const</span> QStyleOptionGraphicsItem *option,</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;               QWidget *widget);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    QRectF <a class="code" href="classPaddle.html#a1149ac192037b3ee6921f748c913a14d">boundingRect</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QPainter&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QGraphicsItem&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classPaddle.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPaddle.html">Paddle</a> : <span class="keyword">public</span> QGraphicsItem</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="classPaddle.html#a53895671ddfde9ba668546065ec4f164">Paddle</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classPaddle.html#a16f9269b5aadbfa22ce261e15b1ac3d3">   19</a></span>&#160;    QRectF <a class="code" href="classPaddle.html#a16f9269b5aadbfa22ce261e15b1ac3d3">rect</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="comment">//Funzioni</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classPaddle.html#a7b53c543e3fa8d4118a19a0b0ba3f07f">paint</a>(QPainter *painter,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;               <span class="keyword">const</span> QStyleOptionGraphicsItem *option,</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;               QWidget *widget);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    QRectF <a class="code" href="classPaddle.html#a1149ac192037b3ee6921f748c913a14d">boundingRect</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;};</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif // PADDLE_H</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif // PADDLE_H</span></div>
 <div class="ttc" id="classPaddle_html_a7b53c543e3fa8d4118a19a0b0ba3f07f"><div class="ttname"><a href="classPaddle.html#a7b53c543e3fa8d4118a19a0b0ba3f07f">Paddle::paint</a></div><div class="ttdeci">void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)</div><div class="ttdef"><b>Definition:</b> paddle.cpp:29</div></div>
 <div class="ttc" id="classPaddle_html_a53895671ddfde9ba668546065ec4f164"><div class="ttname"><a href="classPaddle.html#a53895671ddfde9ba668546065ec4f164">Paddle::Paddle</a></div><div class="ttdeci">Paddle()</div><div class="ttdef"><b>Definition:</b> paddle.cpp:6</div></div>
-<div class="ttc" id="classPaddle_html"><div class="ttname"><a href="classPaddle.html">Paddle</a></div><div class="ttdoc">Classe utilizzata per la creazione del paddle. </div><div class="ttdef"><b>Definition:</b> paddle.h:14</div></div>
-<div class="ttc" id="classPaddle_html_a16f9269b5aadbfa22ce261e15b1ac3d3"><div class="ttname"><a href="classPaddle.html#a16f9269b5aadbfa22ce261e15b1ac3d3">Paddle::rect</a></div><div class="ttdeci">QRectF rect</div><div class="ttdef"><b>Definition:</b> paddle.h:21</div></div>
+<div class="ttc" id="classPaddle_html"><div class="ttname"><a href="classPaddle.html">Paddle</a></div><div class="ttdoc">Classe utilizzata per la creazione del paddle. </div><div class="ttdef"><b>Definition:</b> paddle.h:12</div></div>
+<div class="ttc" id="classPaddle_html_a16f9269b5aadbfa22ce261e15b1ac3d3"><div class="ttname"><a href="classPaddle.html#a16f9269b5aadbfa22ce261e15b1ac3d3">Paddle::rect</a></div><div class="ttdeci">QRectF rect</div><div class="ttdef"><b>Definition:</b> paddle.h:19</div></div>
 <div class="ttc" id="classPaddle_html_a1149ac192037b3ee6921f748c913a14d"><div class="ttname"><a href="classPaddle.html#a1149ac192037b3ee6921f748c913a14d">Paddle::boundingRect</a></div><div class="ttdeci">QRectF boundingRect() const </div><div class="ttdef"><b>Definition:</b> paddle.cpp:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generato Ven 3 Ott 2014 12:25:06 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
+Generato Ven 3 Ott 2014 13:24:59 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

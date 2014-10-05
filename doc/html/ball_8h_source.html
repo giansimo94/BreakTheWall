@@ -91,50 +91,49 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
 <a href="ball_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef BALL_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define BALL_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QtCore&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QtGui&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QGraphicsItem&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classBall.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classBall.html">Ball</a> : <span class="keyword">public</span> QGraphicsItem</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="classBall.html#a86a144d3dad6c953e422e32435923bbb">Ball</a>();</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    qreal <a class="code" href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">getXdir</a>();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    qreal <a class="code" href="classBall.html#a9ac2a170cce00e6fd8beb95c8cdef29e">getYdir</a>();</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a>(qreal x);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">setYDir</a>(qreal y);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBall.html#a05228e822d67b25baf715cf09c325494">move</a>();</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classBall.html#a711ea72efadc6a71b28439cc36d9b63b">   25</a></span>&#160;    QRectF <a class="code" href="classBall.html#a711ea72efadc6a71b28439cc36d9b63b">rect</a>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classBall.html#a75d760f32668088955bb39aefd65ae89">   26</a></span>&#160;    qreal <a class="code" href="classBall.html#a75d760f32668088955bb39aefd65ae89">xmove</a> ;</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classBall.html#ac74cf3d720ce618af268b8afaec57abb">   27</a></span>&#160;    qreal <a class="code" href="classBall.html#ac74cf3d720ce618af268b8afaec57abb">ymove</a> ; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="comment">//Funzioni</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBall.html#ac61500d8ef7bbb595175da04c323949c">paint</a>(QPainter *painter,</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;               <span class="keyword">const</span> QStyleOptionGraphicsItem *option,</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;               QWidget *widget);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    QRectF <a class="code" href="classBall.html#ae68484e656a6c7a195e41185c06e9e8f">boundingRect</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif // BALL_H</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QPainter&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QGraphicsItem&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classBall.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classBall.html">Ball</a> : <span class="keyword">public</span> QGraphicsItem</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="classBall.html#a86a144d3dad6c953e422e32435923bbb">Ball</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    qreal <a class="code" href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">getXdir</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    qreal <a class="code" href="classBall.html#a9ac2a170cce00e6fd8beb95c8cdef29e">getYdir</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">setXDir</a>(qreal x);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">setYDir</a>(qreal y);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBall.html#a05228e822d67b25baf715cf09c325494">move</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classBall.html#a711ea72efadc6a71b28439cc36d9b63b">   24</a></span>&#160;    QRectF <a class="code" href="classBall.html#a711ea72efadc6a71b28439cc36d9b63b">rect</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classBall.html#a75d760f32668088955bb39aefd65ae89">   25</a></span>&#160;    qreal <a class="code" href="classBall.html#a75d760f32668088955bb39aefd65ae89">xmove</a> ;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classBall.html#ac74cf3d720ce618af268b8afaec57abb">   26</a></span>&#160;    qreal <a class="code" href="classBall.html#ac74cf3d720ce618af268b8afaec57abb">ymove</a> ; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">//Funzioni</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBall.html#ac61500d8ef7bbb595175da04c323949c">paint</a>(QPainter *painter,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;               <span class="keyword">const</span> QStyleOptionGraphicsItem *option,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;               QWidget *widget);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    QRectF <a class="code" href="classBall.html#ae68484e656a6c7a195e41185c06e9e8f">boundingRect</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif // BALL_H</span></div>
 <div class="ttc" id="classBall_html_a86a144d3dad6c953e422e32435923bbb"><div class="ttname"><a href="classBall.html#a86a144d3dad6c953e422e32435923bbb">Ball::Ball</a></div><div class="ttdeci">Ball()</div><div class="ttdef"><b>Definition:</b> ball.cpp:7</div></div>
 <div class="ttc" id="classBall_html_a5addbcd83462faeae0bd725d5ee131d5"><div class="ttname"><a href="classBall.html#a5addbcd83462faeae0bd725d5ee131d5">Ball::setYDir</a></div><div class="ttdeci">void setYDir(qreal y)</div><div class="ttdef"><b>Definition:</b> ball.cpp:103</div></div>
-<div class="ttc" id="classBall_html"><div class="ttname"><a href="classBall.html">Ball</a></div><div class="ttdoc">Classe utilizzata per la creazione dell&#39;oggetto ball. </div><div class="ttdef"><b>Definition:</b> ball.h:13</div></div>
+<div class="ttc" id="classBall_html"><div class="ttname"><a href="classBall.html">Ball</a></div><div class="ttdoc">Classe utilizzata per la creazione dell&#39;oggetto ball. </div><div class="ttdef"><b>Definition:</b> ball.h:12</div></div>
 <div class="ttc" id="classBall_html_a2f8964d3f58ce8750cd5c5202afbe838"><div class="ttname"><a href="classBall.html#a2f8964d3f58ce8750cd5c5202afbe838">Ball::setXDir</a></div><div class="ttdeci">void setXDir(qreal x)</div><div class="ttdef"><b>Definition:</b> ball.cpp:90</div></div>
 <div class="ttc" id="classBall_html_ac8ef49b4b2e62d3453de86f8f765a556"><div class="ttname"><a href="classBall.html#ac8ef49b4b2e62d3453de86f8f765a556">Ball::getXdir</a></div><div class="ttdeci">qreal getXdir()</div><div class="ttdef"><b>Definition:</b> ball.cpp:114</div></div>
-<div class="ttc" id="classBall_html_a75d760f32668088955bb39aefd65ae89"><div class="ttname"><a href="classBall.html#a75d760f32668088955bb39aefd65ae89">Ball::xmove</a></div><div class="ttdeci">qreal xmove</div><div class="ttdef"><b>Definition:</b> ball.h:26</div></div>
+<div class="ttc" id="classBall_html_a75d760f32668088955bb39aefd65ae89"><div class="ttname"><a href="classBall.html#a75d760f32668088955bb39aefd65ae89">Ball::xmove</a></div><div class="ttdeci">qreal xmove</div><div class="ttdef"><b>Definition:</b> ball.h:25</div></div>
 <div class="ttc" id="classBall_html_ac61500d8ef7bbb595175da04c323949c"><div class="ttname"><a href="classBall.html#ac61500d8ef7bbb595175da04c323949c">Ball::paint</a></div><div class="ttdeci">void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)</div><div class="ttdef"><b>Definition:</b> ball.cpp:45</div></div>
 <div class="ttc" id="classBall_html_a9ac2a170cce00e6fd8beb95c8cdef29e"><div class="ttname"><a href="classBall.html#a9ac2a170cce00e6fd8beb95c8cdef29e">Ball::getYdir</a></div><div class="ttdeci">qreal getYdir()</div><div class="ttdef"><b>Definition:</b> ball.cpp:125</div></div>
 <div class="ttc" id="classBall_html_a05228e822d67b25baf715cf09c325494"><div class="ttname"><a href="classBall.html#a05228e822d67b25baf715cf09c325494">Ball::move</a></div><div class="ttdeci">void move()</div><div class="ttdef"><b>Definition:</b> ball.cpp:62</div></div>
-<div class="ttc" id="classBall_html_a711ea72efadc6a71b28439cc36d9b63b"><div class="ttname"><a href="classBall.html#a711ea72efadc6a71b28439cc36d9b63b">Ball::rect</a></div><div class="ttdeci">QRectF rect</div><div class="ttdef"><b>Definition:</b> ball.h:25</div></div>
+<div class="ttc" id="classBall_html_a711ea72efadc6a71b28439cc36d9b63b"><div class="ttname"><a href="classBall.html#a711ea72efadc6a71b28439cc36d9b63b">Ball::rect</a></div><div class="ttdeci">QRectF rect</div><div class="ttdef"><b>Definition:</b> ball.h:24</div></div>
 <div class="ttc" id="classBall_html_ae68484e656a6c7a195e41185c06e9e8f"><div class="ttname"><a href="classBall.html#ae68484e656a6c7a195e41185c06e9e8f">Ball::boundingRect</a></div><div class="ttdeci">QRectF boundingRect() const </div><div class="ttdef"><b>Definition:</b> ball.cpp:36</div></div>
-<div class="ttc" id="classBall_html_ac74cf3d720ce618af268b8afaec57abb"><div class="ttname"><a href="classBall.html#ac74cf3d720ce618af268b8afaec57abb">Ball::ymove</a></div><div class="ttdeci">qreal ymove</div><div class="ttdef"><b>Definition:</b> ball.h:27</div></div>
+<div class="ttc" id="classBall_html_ac74cf3d720ce618af268b8afaec57abb"><div class="ttname"><a href="classBall.html#ac74cf3d720ce618af268b8afaec57abb">Ball::ymove</a></div><div class="ttdeci">qreal ymove</div><div class="ttdef"><b>Definition:</b> ball.h:26</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generato Ven 3 Ott 2014 12:25:06 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
+Generato Ven 3 Ott 2014 13:24:59 per Break The Wall da &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

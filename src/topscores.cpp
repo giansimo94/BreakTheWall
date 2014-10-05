@@ -1,4 +1,4 @@
-#include "topscores.h"
+#include "src/topscores.h"
 #include "ui_topscores.h"
 
 
